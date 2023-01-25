@@ -1,0 +1,521 @@
+# Posortowane
+
+Wyniki dla: Test1 - Rozmiar - monogram easy 7x7 4 kolory
+Successfull: 0.03 (3/100)
+Min time: 4.856206178665161 sec
+Max time: 204.49805116653442 sec
+Avg time: 119.05919599533081 sec
+Test time: 12911.726482391357 sec
+Min generations: 637
+Max generations: 998
+Avg generations: 799
+Min similarity: 0.16326530612244894
+Max similarity: 1.0
+Avg similarity: 0.5028571428571424
+
+Wyniki dla: Test1 - Rozmiar - monogram easy 6x6 4 kolory
+Successfull: 0.46 (46/100)
+Min time: 14.44480013847351 sec
+Max time: 199.99256563186646 sec
+Avg time: 83.0979040135508 sec
+Test time: 12110.325587034225 sec
+Min generations: 270
+Max generations: 977
+Avg generations: 658
+Min similarity: 0.2222222222222222
+Max similarity: 1.0
+Avg similarity: 0.7569444444444445
+
+Wyniki dla: Test1 - Rozmiar - monogram easy 5x5 4 kolory
+Successfull: 0.71 (71/100)
+Min time: 16.51300859451294 sec
+Max time: 200.0155143737793 sec
+Avg time: 74.67032179026536 sec
+Test time: 10807.61492228508 sec
+Min generations: 99
+Max generations: 990
+Avg generations: 421
+Min similarity: 0.36
+Max similarity: 1.0
+Avg similarity: 0.9292000000000002
+
+Wyniki dla: Test1 - Rozmiar - monogram easy 4x4 4 kolory
+Successfull: 1.0 (100/100)
+Min time: 4.986407279968262 sec
+Max time: 171.17647743225098 sec
+Avg time: 34.98687858343124 sec
+Test time: 3499.6258251667023 sec
+Min generations: 23
+Max generations: 805
+Avg generations: 157
+Min similarity: 1.0
+Max similarity: 1.0
+Avg similarity: 1.0
+
+Wyniki dla: Test1 - Rozmiar - monogram easy 3x3 4 kolory
+Successfull: 1.0 (100/100)
+Min time: 1.8882582187652588 sec
+Max time: 26.50656270980835 sec
+Avg time: 7.960984756946564 sec
+Test time: 797.4885699748993 sec
+Min generations: 8
+Max generations: 115
+Avg generations: 33
+Min similarity: 1.0
+Max similarity: 1.0
+Avg similarity: 1.0
+
+Wyniki dla: Test1 - Rozmiar - monogram hard 7x7 4 kolory
+Successfull: 0.02 (2/100)
+Min time: 173.48537516593933 sec
+Max time: 208.5641131401062 sec
+Avg time: 191.02474415302277 sec
+Test time: 12722.155361890793 sec
+Min generations: 872
+Max generations: 973
+Avg generations: 922
+Min similarity: 0.30612244897959184
+Max similarity: 1.0
+Avg similarity: 0.6942857142857138
+
+Wyniki dla: Test1 - Rozmiar - monogram hard 6x6 4 kolory
+Successfull: 0.77 (77/100)
+Min time: 23.892409324645996 sec
+Max time: 209.20355534553528 sec
+Avg time: 78.09799669315288 sec
+Test time: 10446.615030527115 sec
+Min generations: 153
+Max generations: 991
+Avg generations: 437
+Min similarity: 0.25
+Max similarity: 1.0
+Avg similarity: 0.9258333333333332
+
+Wyniki dla: Test1 - Rozmiar - monogram hard 5x5 4 kolory
+Successfull: 0.53 (53/100)
+Min time: 7.010947227478027 sec
+Max time: 190.5038285255432 sec
+Avg time: 71.41009946139354 sec
+Test time: 11546.497546434402 sec
+Min generations: 83
+Max generations: 996
+Avg generations: 430
+Min similarity: 0.19999999999999996
+Max similarity: 1.0
+Avg similarity: 0.8359999999999999
+
+Wyniki dla: Test1 - Rozmiar - monogram hard 4x4 4 kolory
+Successfull: 0.78 (78/100)
+Min time: 2.523263454437256 sec
+Max time: 229.71629810333252 sec
+Avg time: 50.607697224005676 sec
+Test time: 8460.618133306503 sec
+Min generations: 15
+Max generations: 972
+Avg generations: 244
+Min similarity: 0.5
+Max similarity: 1.0
+Avg similarity: 0.916875
+
+Wyniki dla: Test1 - Rozmiar - monogram hard 3x3 4 kolory
+Successfull: 1.0 (100/100)
+Min time: 1.5000600814819336 sec
+Max time: 20.064662218093872 sec
+Avg time: 7.353341796398163 sec
+Test time: 736.4232470989227 sec
+Min generations: 7
+Max generations: 78
+Avg generations: 30
+Min similarity: 1.0
+Max similarity: 1.0
+Avg similarity: 1.0
+
+Wyniki dla: Test2 - Kolor - monogram easy 5x5 2 kolory
+Successfull: 0.9 (90/100)
+Min time: 8.18598985671997 sec
+Max time: 196.8716161251068 sec
+Avg time: 60.336632461018034 sec
+Test time: 7545.688964605331 sec
+Min generations: 38
+Max generations: 956
+Avg generations: 287
+Min similarity: 0.48
+Max similarity: 1.0
+Avg similarity: 0.9748
+
+Wyniki dla: Test2 - Kolor - monogram easy 5x5 3 kolory
+Successfull: 0.73 (73/100)
+Min time: 2.4358043670654297 sec
+Max time: 165.31317710876465 sec
+Avg time: 35.22098792089175 sec
+Test time: 8235.477821350098 sec
+Min generations: 12
+Max generations: 945
+Avg generations: 177
+Min similarity: 0.36
+Max similarity: 1.0
+Avg similarity: 0.8919999999999998
+
+Wyniki dla: Test2 - Kolor - monogram easy 5x5 4 kolory
+Successfull: 0.71 (71/100)
+Min time: 15.795078754425049 sec
+Max time: 200.56616759300232 sec
+Avg time: 67.4603599595352 sec
+Test time: 10273.880371809006 sec
+Min generations: 78
+Max generations: 952
+Avg generations: 370
+Min similarity: 0.4
+Max similarity: 1.0
+Avg similarity: 0.938
+
+Wyniki dla: Test2 - Kolor - monogram easy 5x5 5 kolory
+Successfull: 0.76 (76/100)
+Min time: 9.06671690940857 sec
+Max time: 212.72225785255432 sec
+Avg time: 84.02687373600509 sec
+Test time: 10852.462198972702 sec
+Min generations: 71
+Max generations: 962
+Avg generations: 458
+Min similarity: 0.36
+Max similarity: 1.0
+Avg similarity: 0.9296000000000002
+
+Wyniki dla: Test2 - Kolor - monogram easy 5x5 6 kolory
+Successfull: 0.67 (67/100)
+Min time: 17.52612853050232 sec
+Max time: 212.69554543495178 sec
+Avg time: 85.43797770898733 sec
+Test time: 11303.764240503311 sec
+Min generations: 92
+Max generations: 982
+Avg generations: 458
+Min similarity: 0.28
+Max similarity: 1.0
+Avg similarity: 0.9028000000000002
+
+Wyniki dla: Test2 - Kolor - monogram hard 5x5 2 kolory
+Successfull: 0.95 (95/100)
+Min time: 9.654184818267822 sec
+Max time: 201.39112734794617 sec
+Avg time: 44.43993125965721 sec
+Test time: 5280.046746969223 sec
+Min generations: 47
+Max generations: 914
+Avg generations: 206
+Min similarity: 0.4
+Max similarity: 1.0
+Avg similarity: 0.9784
+
+Wyniki dla: Test2 - Kolor - monogram hard 5x5 3 kolory
+Successfull: 0.91 (91/100)
+Min time: 8.26212453842163 sec
+Max time: 168.9822449684143 sec
+Avg time: 58.54137895657466 sec
+Test time: 7157.553906679153 sec
+Min generations: 45
+Max generations: 822
+Avg generations: 286
+Min similarity: 0.43999999999999995
+Max similarity: 1.0
+Avg similarity: 0.9676
+
+Wyniki dla: Test2 - Kolor - monogram hard 5x5 4 kolory
+Successfull: 0.91 (91/100)
+Min time: 12.171946048736572 sec
+Max time: 196.8084852695465 sec
+Avg time: 70.75240570110279 sec
+Test time: 8357.202380657196 sec
+Min generations: 59
+Max generations: 978
+Avg generations: 349
+Min similarity: 0.6
+Max similarity: 1.0
+Avg similarity: 0.9840000000000001
+
+Wyniki dla: Test2 - Kolor - monogram hard 5x5 5 kolory
+Successfull: 0.54 (54/100)
+Min time: 3.0596845149993896 sec
+Max time: 181.4089765548706 sec
+Avg time: 39.228350069787766 sec
+Test time: 10542.834757566452 sec
+Min generations: 17
+Max generations: 880
+Avg generations: 198
+Min similarity: 0.4
+Max similarity: 1.0
+Avg similarity: 0.7764000000000003
+
+Wyniki dla: Test2 - Kolor - monogram hard 5x5 6 kolory
+Successfull: 0.5 (50/100)
+Min time: 6.969887018203735 sec
+Max time: 203.4202492237091 sec
+Avg time: 60.50631662845612 sec
+Test time: 11474.793614387512 sec
+Min generations: 74
+Max generations: 964
+Avg generations: 362
+Min similarity: 0.31999999999999995
+Max similarity: 1.0
+Avg similarity: 0.8660000000000002
+
+Wyniki dla: Test3 - Rozmiar - monogram easy 7x7 4 kolory
+Successfull: 0.04 (4/100)
+Min time: 40.4186737537384 sec
+Max time: 170.26859378814697 sec
+Avg time: 95.79212135076523 sec
+Test time: 12847.878683328629 sec
+Min generations: 279
+Max generations: 793
+Avg generations: 516
+Min similarity: 0.24489795918367352
+Max similarity: 1.0
+Avg similarity: 0.4910204081632655
+
+Wyniki dla: Test3 - Rozmiar - monogram easy 6x6 4 kolory
+Successfull: 0.44 (44/100)
+Min time: 14.747118949890137 sec
+Max time: 197.66221070289612 sec
+Avg time: 87.93000078201294 sec
+Test time: 12031.206703186035 sec
+Min generations: 294
+Max generations: 992
+Avg generations: 609
+Min similarity: 0.11111111111111116
+Max similarity: 1.0
+Avg similarity: 0.7794444444444446
+
+Wyniki dla: Test3 - Rozmiar - monogram easy 5x5 4 kolory
+Successfull: 0.78 (78/100)
+Min time: 11.67020297050476 sec
+Max time: 215.15997290611267 sec
+Avg time: 85.7477443523896 sec
+Test time: 10775.325595140457 sec
+Min generations: 59
+Max generations: 989
+Avg generations: 463
+Min similarity: 0.48
+Max similarity: 1.0
+Avg similarity: 0.9496000000000003
+
+Wyniki dla: Test3 - Rozmiar - monogram easy 4x4 4 kolory
+Successfull: 1.0 (100/100)
+Min time: 3.057332992553711 sec
+Max time: 218.2035174369812 sec
+Avg time: 39.37598248243332 sec
+Test time: 3938.644462823868 sec
+Min generations: 14
+Max generations: 974
+Avg generations: 176
+Min similarity: 1.0
+Max similarity: 1.0
+Avg similarity: 1.0
+
+Wyniki dla: Test3 - Rozmiar - monogram easy 3x3 4 kolory
+Successfull: 1.0 (100/100)
+Min time: 1.3508036136627197 sec
+Max time: 36.91811490058899 sec
+Avg time: 8.249967436790467 sec
+Test time: 825.9676413536072 sec
+Min generations: 5
+Max generations: 161
+Avg generations: 34
+Min similarity: 1.0
+Max similarity: 1.0
+Avg similarity: 1.0
+
+Wyniki dla: Test3 - Rozmiar - monogram hard 7x7 4 kolory
+Successfull: 0.01 (1/100)
+Min time: 20.496336698532104 sec
+Max time: 20.496336698532104 sec
+Avg time: 20.496336698532104 sec
+Test time: 12641.695826292038 sec
+Min generations: 643
+Max generations: 643
+Avg generations: 643
+Min similarity: 0.34693877551020413
+Max similarity: 1.0
+Avg similarity: 0.7081632653061222
+
+Wyniki dla: Test3 - Rozmiar - monogram hard 6x6 4 kolory
+Successfull: 0.67 (67/100)
+Min time: 19.77046823501587 sec
+Max time: 216.01024222373962 sec
+Avg time: 83.0459244856194 sec
+Test time: 11088.655433416367 sec
+Min generations: 175
+Max generations: 945
+Avg generations: 454
+Min similarity: 0.38888888888888884
+Max similarity: 1.0
+Avg similarity: 0.8899999999999999
+
+Wyniki dla: Test3 - Rozmiar - monogram hard 5x5 4 kolory
+Successfull: 0.59 (59/100)
+Min time: 11.740481853485107 sec
+Max time: 193.77548241615295 sec
+Avg time: 64.9943437535884 sec
+Test time: 11211.521586179733 sec
+Min generations: 63
+Max generations: 996
+Avg generations: 395
+Min similarity: 0.19999999999999996
+Max similarity: 1.0
+Avg similarity: 0.8655999999999997
+
+Wyniki dla: Test3 - Rozmiar - monogram hard 4x4 4 kolory
+Successfull: 0.72 (72/100)
+Min time: 5.266047477722168 sec
+Max time: 198.2472643852234 sec
+Avg time: 46.61719787120819 sec
+Test time: 8947.980145692825 sec
+Min generations: 30
+Max generations: 971
+Avg generations: 236
+Min similarity: 0.5
+Max similarity: 1.0
+Avg similarity: 0.884375
+
+Wyniki dla: Test3 - Rozmiar - monogram hard 3x3 4 kolory
+Successfull: 1.0 (100/100)
+Min time: 1.444173812866211 sec
+Max time: 20.90071940422058 sec
+Avg time: 7.007839014530182 sec
+Test time: 701.8155364990234 sec
+Min generations: 6
+Max generations: 84
+Avg generations: 29
+Min similarity: 1.0
+Max similarity: 1.0
+Avg similarity: 1.0
+
+Wyniki dla: Test4 - Kolor - monogram easy 5x5 2 kolory
+Successfull: 0.84 (84/100)
+Min time: 8.544403314590454 sec
+Max time: 184.19665431976318 sec
+Avg time: 65.78595417737961 sec
+Test time: 8698.310553073883 sec
+Min generations: 52
+Max generations: 942
+Avg generations: 325
+Min similarity: 0.6
+Max similarity: 1.0
+Avg similarity: 0.9680000000000001
+
+Wyniki dla: Test4 - Kolor - monogram easy 5x5 3 kolory
+Successfull: 0.67 (67/100)
+Min time: 3.4182448387145996 sec
+Max time: 185.075257062912 sec
+Avg time: 36.86343263512227 sec
+Test time: 9105.822052001953 sec
+Min generations: 15
+Max generations: 899
+Avg generations: 185
+Min similarity: 0.31999999999999995
+Max similarity: 1.0
+Avg similarity: 0.8487999999999997
+
+Wyniki dla: Test4 - Kolor - monogram easy 5x5 4 kolory
+Successfull: 0.77 (77/100)
+Min time: 13.682996034622192 sec
+Max time: 237.176020860672 sec
+Avg time: 74.62014770507812 sec
+Test time: 10049.529581308365 sec
+Min generations: 70
+Max generations: 966
+Avg generations: 398
+Min similarity: 0.16000000000000003
+Max similarity: 1.0
+Avg similarity: 0.9327999999999999
+
+Wyniki dla: Test4 - Kolor - monogram easy 5x5 5 kolory
+Successfull: 0.71 (71/100)
+Min time: 16.195138454437256 sec
+Max time: 202.67259335517883 sec
+Avg time: 77.63435001104651 sec
+Test time: 10979.912786483765 sec
+Min generations: 123
+Max generations: 922
+Avg generations: 426
+Min similarity: 0.36
+Max similarity: 1.0
+Avg similarity: 0.9127999999999998
+
+Wyniki dla: Test4 - Kolor - monogram easy 5x5 6 kolory
+Successfull: 0.7 (70/100)
+Min time: 12.355199098587036 sec
+Max time: 206.0664246082306 sec
+Avg time: 81.15800586768559 sec
+Test time: 11075.566537380219 sec
+Min generations: 86
+Max generations: 993
+Avg generations: 451
+Min similarity: 0.36
+Max similarity: 1.0
+Avg similarity: 0.9296000000000005
+
+Wyniki dla: Test4 - Kolor - monogram hard 5x5 2 kolory
+Successfull: 0.97 (97/100)
+Min time: 7.56062650680542 sec
+Max time: 185.1338827610016 sec
+Avg time: 42.404604105605294 sec
+Test time: 4769.508201599121 sec
+Min generations: 37
+Max generations: 949
+Avg generations: 197
+Min similarity: 0.6
+Max similarity: 1.0
+Avg similarity: 0.9904000000000001
+
+Wyniki dla: Test4 - Kolor - monogram hard 5x5 3 kolory
+Successfull: 0.95 (95/100)
+Min time: 15.204962491989136 sec
+Max time: 168.0047948360443 sec
+Avg time: 52.81147485532259 sec
+Test time: 6056.217994451523 sec
+Min generations: 70
+Max generations: 722
+Avg generations: 256
+Min similarity: 0.52
+Max similarity: 1.0
+Avg similarity: 0.9819999999999999
+
+Wyniki dla: Test4 - Kolor - monogram hard 5x5 4 kolory
+Successfull: 0.93 (93/100)
+Min time: 12.81282353401184 sec
+Max time: 185.54746270179749 sec
+Avg time: 65.75522567123495 sec
+Test time: 7602.365091562271 sec
+Min generations: 63
+Max generations: 866
+Avg generations: 317
+Min similarity: 0.76
+Max similarity: 1.0
+Avg similarity: 0.9912000000000001
+
+Wyniki dla: Test4 - Kolor - monogram hard 5x5 5 kolory
+Successfull: 0.59 (59/100)
+Min time: 2.2499022483825684 sec
+Max time: 210.44111347198486 sec
+Avg time: 44.23540876275402 sec
+Test time: 10264.386845588684 sec
+Min generations: 11
+Max generations: 991
+Avg generations: 225
+Min similarity: 0.31999999999999995
+Max similarity: 1.0
+Avg similarity: 0.8064000000000001
+
+Wyniki dla: Test4 - Kolor - monogram hard 5x5 6 kolory
+Successfull: 0.5 (50/100)
+Min time: 7.601011514663696 sec
+Max time: 202.59135246276855 sec
+Avg time: 66.3457145166397 sec
+Test time: 11740.5519759655 sec
+Min generations: 77
+Max generations: 878
+Avg generations: 364
+Min similarity: 0.36
+Max similarity: 1.0
+Avg similarity: 0.862

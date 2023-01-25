@@ -5,11 +5,13 @@ from difflib import SequenceMatcher
 import time
 
 """ Ładowanie pixelartu i budowanie monogramu """
-raw_img = np.array(iio.imread("assets/test1/easy-5x5-5.png"))
+
+raw_img = np.array(iio.imread("assets/test.png"))
+
 pixels = np.reshape(raw_img, (raw_img.shape[0] * raw_img.shape[1], raw_img.shape[2]))
 color_palette = np.unique(pixels, axis=0)
 
-def set_nonfilled_color(color_palette, color):
+def set_nonfilled_color(color):
     _color = np.array(color, dtype=np.uint8)
     
     if _color.shape[0] > color_palette.shape[1]:
@@ -26,7 +28,7 @@ def set_nonfilled_color(color_palette, color):
     return new_color_palette
 
 #Dodawanie koloru oznaczającego puste pola
-color_palette = set_nonfilled_color([0,0,0,0])
+color_palette2 = set_nonfilled_color([255,255,255])
 
 def find_color(color):
     index = 0
@@ -109,7 +111,7 @@ num_genes = img.shape[0] * img.shape[1]
 
 """ Parametry populacji """
 sol_per_pop = 10
-num_generations = 200000
+num_generations = 1000
 
 """ Parametry mutacji """
 num_parents_mating = 5
@@ -170,7 +172,7 @@ ga_instance = pygad.GA(gene_space=gene_space,
                        crossover_type=crossover_type,
                        mutation_type=mutation_type,
                        mutation_percent_genes=mutation_percent_genes,
-                       stop_criteria = ["saturate_1000000", "reach_0"])
+                       stop_criteria = ["saturate_1000", "reach_0"])
         
 ga_instance.run()
 

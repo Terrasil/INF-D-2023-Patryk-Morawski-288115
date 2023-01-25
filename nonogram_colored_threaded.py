@@ -177,18 +177,19 @@ def run_test(title, img_path, nonfilled_color, count):
     for i in range(count):
         ta = time.time()
         
-        ga_instance = pygad.GA(gene_space=gene_space,
-                                num_generations=num_generations,
-                                num_parents_mating=num_parents_mating,
-                                fitness_func=fitness_function_factory(img, nonogram_solution),
-                                sol_per_pop=sol_per_pop,
-                                num_genes=num_genes,
-                                parent_selection_type=parent_selection_type,
-                                keep_parents=keep_parents,
-                                crossover_type=crossover_type,
-                                mutation_type=mutation_type,
-                                mutation_percent_genes=mutation_percent_genes,
-                                stop_criteria = ["saturate_100000", "reach_0"])
+        ga_instance = pygad.GA(
+            gene_space=gene_space,
+            num_generations=num_generations,
+            num_parents_mating=num_parents_mating,
+            fitness_func=fitness_function_factory(img, nonogram_solution),
+            sol_per_pop=sol_per_pop,
+            num_genes=num_genes,
+            parent_selection_type=parent_selection_type,
+            keep_parents=keep_parents,
+            crossover_type=crossover_type,
+            mutation_type=mutation_type,
+            mutation_percent_genes=mutation_percent_genes,
+            stop_criteria = ["saturate_1000", "reach_0"])
         ga_instance.run()
             
         tb = time.time()
@@ -248,16 +249,16 @@ threads1.append(threading.Thread(target=run_test, args=("Test1 - Rozmiar - monog
 threads1.append(threading.Thread(target=run_test, args=("Test1 - Rozmiar - monogram hard 5x5 4 kolory", "assets/test1/hard-5x5-4.png", [255, 255, 255], 100)))
 threads1.append(threading.Thread(target=run_test, args=("Test1 - Rozmiar - monogram hard 4x4 4 kolory", "assets/test1/hard-4x4-4.png", [255, 255, 255], 100)))
 threads1.append(threading.Thread(target=run_test, args=("Test1 - Rozmiar - monogram hard 3x3 4 kolory", "assets/test1/hard-3x3-4.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-2.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-3.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 2 kolory", "assets/test2/easy-5x5-2.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 3 kolory", "assets/test2/easy-5x5-3.png", [255, 255, 255], 100)))
 threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-4.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-5.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-6.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-2.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-3.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 5 kolory", "assets/test2/easy-5x5-5.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram easy 5x5 6 kolory", "assets/test2/easy-5x5-6.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 2 kolory", "assets/test2/hard-5x5-2.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 3 kolory", "assets/test2/hard-5x5-3.png", [255, 255, 255], 100)))
 threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-4.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-5.png", [255, 255, 255], 100)))
-threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-6.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 5 kolory", "assets/test2/hard-5x5-5.png", [255, 255, 255], 100)))
+threads1.append(threading.Thread(target=run_test, args=("Test2 - Kolor - monogram hard 5x5 6 kolory", "assets/test2/hard-5x5-6.png", [255, 255, 255], 100)))
 
 for thread in threads1:
     thread.start()
@@ -292,16 +293,16 @@ threads2.append(threading.Thread(target=run_test, args=("Test3 - Rozmiar - monog
 threads2.append(threading.Thread(target=run_test, args=("Test3 - Rozmiar - monogram hard 5x5 4 kolory", "assets/test1/hard-5x5-4.png", [255, 255, 255], 100)))
 threads2.append(threading.Thread(target=run_test, args=("Test3 - Rozmiar - monogram hard 4x4 4 kolory", "assets/test1/hard-4x4-4.png", [255, 255, 255], 100)))
 threads2.append(threading.Thread(target=run_test, args=("Test3 - Rozmiar - monogram hard 3x3 4 kolory", "assets/test1/hard-3x3-4.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-2.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-3.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 2 kolory", "assets/test2/easy-5x5-2.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 3 kolory", "assets/test2/easy-5x5-3.png", [255, 255, 255], 100)))
 threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-4.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-5.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 4 kolory", "assets/test2/easy-5x5-6.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-2.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-3.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 5 kolory", "assets/test2/easy-5x5-5.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram easy 5x5 6 kolory", "assets/test2/easy-5x5-6.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 2 kolory", "assets/test2/hard-5x5-2.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 3 kolory", "assets/test2/hard-5x5-3.png", [255, 255, 255], 100)))
 threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-4.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-5.png", [255, 255, 255], 100)))
-threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 4 kolory", "assets/test2/hard-5x5-6.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 5 kolory", "assets/test2/hard-5x5-5.png", [255, 255, 255], 100)))
+threads2.append(threading.Thread(target=run_test, args=("Test4 - Kolor - monogram hard 5x5 6 kolory", "assets/test2/hard-5x5-6.png", [255, 255, 255], 100)))
 
 
 for thread in threads2:
